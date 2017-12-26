@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74E01C231FF26CA00025A0F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E01C221FF26CA00025A0F0 /* AppDelegate.swift */; };
+		74E01C251FF26CA00025A0F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E01C241FF26CA00025A0F0 /* Assets.xcassets */; };
+		74E01C281FF26CA00025A0F0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74E01C261FF26CA00025A0F0 /* MainMenu.xib */; };
+		74E01C341FF26CA00025A0F0 /* BinanceBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E01C331FF26CA00025A0F0 /* BinanceBarTests.swift */; };
+		74E01C3F1FF26CA00025A0F0 /* BinanceBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E01C3E1FF26CA00025A0F0 /* BinanceBarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74E01C301FF26CA00025A0F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74E01C171FF26CA00025A0F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74E01C1E1FF26CA00025A0F0;
+			remoteInfo = BinanceBar;
+		};
+		74E01C3B1FF26CA00025A0F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74E01C171FF26CA00025A0F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74E01C1E1FF26CA00025A0F0;
+			remoteInfo = BinanceBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74E01C1F1FF26CA00025A0F0 /* BinanceBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BinanceBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E01C221FF26CA00025A0F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74E01C241FF26CA00025A0F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74E01C271FF26CA00025A0F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		74E01C291FF26CA00025A0F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E01C2A1FF26CA00025A0F0 /* BinanceBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BinanceBar.entitlements; sourceTree = "<group>"; };
+		74E01C2F1FF26CA00025A0F0 /* BinanceBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinanceBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E01C331FF26CA00025A0F0 /* BinanceBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceBarTests.swift; sourceTree = "<group>"; };
+		74E01C351FF26CA00025A0F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E01C3A1FF26CA00025A0F0 /* BinanceBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinanceBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E01C3E1FF26CA00025A0F0 /* BinanceBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceBarUITests.swift; sourceTree = "<group>"; };
+		74E01C401FF26CA00025A0F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74E01C1C1FF26CA00025A0F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E01C2C1FF26CA00025A0F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E01C371FF26CA00025A0F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74E01C161FF26CA00025A0F0 = {
+			isa = PBXGroup;
+			children = (
+				74E01C211FF26CA00025A0F0 /* BinanceBar */,
+				74E01C321FF26CA00025A0F0 /* BinanceBarTests */,
+				74E01C3D1FF26CA00025A0F0 /* BinanceBarUITests */,
+				74E01C201FF26CA00025A0F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74E01C201FF26CA00025A0F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74E01C1F1FF26CA00025A0F0 /* BinanceBar.app */,
+				74E01C2F1FF26CA00025A0F0 /* BinanceBarTests.xctest */,
+				74E01C3A1FF26CA00025A0F0 /* BinanceBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74E01C211FF26CA00025A0F0 /* BinanceBar */ = {
+			isa = PBXGroup;
+			children = (
+				74E01C221FF26CA00025A0F0 /* AppDelegate.swift */,
+				74E01C241FF26CA00025A0F0 /* Assets.xcassets */,
+				74E01C261FF26CA00025A0F0 /* MainMenu.xib */,
+				74E01C291FF26CA00025A0F0 /* Info.plist */,
+				74E01C2A1FF26CA00025A0F0 /* BinanceBar.entitlements */,
+			);
+			path = BinanceBar;
+			sourceTree = "<group>";
+		};
+		74E01C321FF26CA00025A0F0 /* BinanceBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				74E01C331FF26CA00025A0F0 /* BinanceBarTests.swift */,
+				74E01C351FF26CA00025A0F0 /* Info.plist */,
+			);
+			path = BinanceBarTests;
+			sourceTree = "<group>";
+		};
+		74E01C3D1FF26CA00025A0F0 /* BinanceBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74E01C3E1FF26CA00025A0F0 /* BinanceBarUITests.swift */,
+				74E01C401FF26CA00025A0F0 /* Info.plist */,
+			);
+			path = BinanceBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74E01C1E1FF26CA00025A0F0 /* BinanceBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E01C431FF26CA00025A0F0 /* Build configuration list for PBXNativeTarget "BinanceBar" */;
+			buildPhases = (
+				74E01C1B1FF26CA00025A0F0 /* Sources */,
+				74E01C1C1FF26CA00025A0F0 /* Frameworks */,
+				74E01C1D1FF26CA00025A0F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BinanceBar;
+			productName = BinanceBar;
+			productReference = 74E01C1F1FF26CA00025A0F0 /* BinanceBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74E01C2E1FF26CA00025A0F0 /* BinanceBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E01C461FF26CA00025A0F0 /* Build configuration list for PBXNativeTarget "BinanceBarTests" */;
+			buildPhases = (
+				74E01C2B1FF26CA00025A0F0 /* Sources */,
+				74E01C2C1FF26CA00025A0F0 /* Frameworks */,
+				74E01C2D1FF26CA00025A0F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74E01C311FF26CA00025A0F0 /* PBXTargetDependency */,
+			);
+			name = BinanceBarTests;
+			productName = BinanceBarTests;
+			productReference = 74E01C2F1FF26CA00025A0F0 /* BinanceBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74E01C391FF26CA00025A0F0 /* BinanceBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E01C491FF26CA00025A0F0 /* Build configuration list for PBXNativeTarget "BinanceBarUITests" */;
+			buildPhases = (
+				74E01C361FF26CA00025A0F0 /* Sources */,
+				74E01C371FF26CA00025A0F0 /* Frameworks */,
+				74E01C381FF26CA00025A0F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74E01C3C1FF26CA00025A0F0 /* PBXTargetDependency */,
+			);
+			name = BinanceBarUITests;
+			productName = BinanceBarUITests;
+			productReference = 74E01C3A1FF26CA00025A0F0 /* BinanceBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74E01C171FF26CA00025A0F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Ian Grail";
+				TargetAttributes = {
+					74E01C1E1FF26CA00025A0F0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					74E01C2E1FF26CA00025A0F0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 74E01C1E1FF26CA00025A0F0;
+					};
+					74E01C391FF26CA00025A0F0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 74E01C1E1FF26CA00025A0F0;
+					};
+				};
+			};
+			buildConfigurationList = 74E01C1A1FF26CA00025A0F0 /* Build configuration list for PBXProject "BinanceBar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74E01C161FF26CA00025A0F0;
+			productRefGroup = 74E01C201FF26CA00025A0F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74E01C1E1FF26CA00025A0F0 /* BinanceBar */,
+				74E01C2E1FF26CA00025A0F0 /* BinanceBarTests */,
+				74E01C391FF26CA00025A0F0 /* BinanceBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74E01C1D1FF26CA00025A0F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E01C251FF26CA00025A0F0 /* Assets.xcassets in Resources */,
+				74E01C281FF26CA00025A0F0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E01C2D1FF26CA00025A0F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E01C381FF26CA00025A0F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74E01C1B1FF26CA00025A0F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E01C231FF26CA00025A0F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E01C2B1FF26CA00025A0F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E01C341FF26CA00025A0F0 /* BinanceBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E01C361FF26CA00025A0F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E01C3F1FF26CA00025A0F0 /* BinanceBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74E01C311FF26CA00025A0F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74E01C1E1FF26CA00025A0F0 /* BinanceBar */;
+			targetProxy = 74E01C301FF26CA00025A0F0 /* PBXContainerItemProxy */;
+		};
+		74E01C3C1FF26CA00025A0F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74E01C1E1FF26CA00025A0F0 /* BinanceBar */;
+			targetProxy = 74E01C3B1FF26CA00025A0F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74E01C261FF26CA00025A0F0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74E01C271FF26CA00025A0F0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74E01C411FF26CA00025A0F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74E01C421FF26CA00025A0F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		74E01C441FF26CA00025A0F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BinanceBar/BinanceBar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BinanceBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grailians.BinanceBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		74E01C451FF26CA00025A0F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BinanceBar/BinanceBar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BinanceBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grailians.BinanceBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		74E01C471FF26CA00025A0F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BinanceBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grailians.BinanceBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BinanceBar.app/Contents/MacOS/BinanceBar";
+			};
+			name = Debug;
+		};
+		74E01C481FF26CA00025A0F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BinanceBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grailians.BinanceBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BinanceBar.app/Contents/MacOS/BinanceBar";
+			};
+			name = Release;
+		};
+		74E01C4A1FF26CA00025A0F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BinanceBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grailians.BinanceBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = BinanceBar;
+			};
+			name = Debug;
+		};
+		74E01C4B1FF26CA00025A0F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BinanceBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grailians.BinanceBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = BinanceBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74E01C1A1FF26CA00025A0F0 /* Build configuration list for PBXProject "BinanceBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E01C411FF26CA00025A0F0 /* Debug */,
+				74E01C421FF26CA00025A0F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74E01C431FF26CA00025A0F0 /* Build configuration list for PBXNativeTarget "BinanceBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E01C441FF26CA00025A0F0 /* Debug */,
+				74E01C451FF26CA00025A0F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74E01C461FF26CA00025A0F0 /* Build configuration list for PBXNativeTarget "BinanceBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E01C471FF26CA00025A0F0 /* Debug */,
+				74E01C481FF26CA00025A0F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74E01C491FF26CA00025A0F0 /* Build configuration list for PBXNativeTarget "BinanceBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E01C4A1FF26CA00025A0F0 /* Debug */,
+				74E01C4B1FF26CA00025A0F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74E01C171FF26CA00025A0F0 /* Project object */;
+}
