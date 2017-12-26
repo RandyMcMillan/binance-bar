@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74B24A551FF2A029009C4903 /* PreferencesWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B24A531FF2A029009C4903 /* PreferencesWindow.swift */; };
+		74B24A561FF2A029009C4903 /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74B24A541FF2A029009C4903 /* PreferencesWindow.xib */; };
 		74E01C231FF26CA00025A0F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E01C221FF26CA00025A0F0 /* AppDelegate.swift */; };
 		74E01C251FF26CA00025A0F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E01C241FF26CA00025A0F0 /* Assets.xcassets */; };
 		74E01C281FF26CA00025A0F0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74E01C261FF26CA00025A0F0 /* MainMenu.xib */; };
 		74E01C341FF26CA00025A0F0 /* BinanceBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E01C331FF26CA00025A0F0 /* BinanceBarTests.swift */; };
 		74E01C3F1FF26CA00025A0F0 /* BinanceBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E01C3E1FF26CA00025A0F0 /* BinanceBarUITests.swift */; };
+		74E01C4D1FF2734E0025A0F0 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E01C4C1FF2734E0025A0F0 /* StatusMenuController.swift */; };
+		74E01C4F1FF274EC0025A0F0 /* BinanceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E01C4E1FF274EC0025A0F0 /* BinanceAPI.swift */; };
+		74ED239F1FF29DCB00BCC94A /* TickersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74ED239D1FF297A600BCC94A /* TickersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		74B24A531FF2A029009C4903 /* PreferencesWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesWindow.swift; sourceTree = "<group>"; };
+		74B24A541FF2A029009C4903 /* PreferencesWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreferencesWindow.xib; sourceTree = "<group>"; };
 		74E01C1F1FF26CA00025A0F0 /* BinanceBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BinanceBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E01C221FF26CA00025A0F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74E01C241FF26CA00025A0F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +51,9 @@
 		74E01C3A1FF26CA00025A0F0 /* BinanceBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinanceBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E01C3E1FF26CA00025A0F0 /* BinanceBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceBarUITests.swift; sourceTree = "<group>"; };
 		74E01C401FF26CA00025A0F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E01C4C1FF2734E0025A0F0 /* StatusMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		74E01C4E1FF274EC0025A0F0 /* BinanceAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceAPI.swift; sourceTree = "<group>"; };
+		74ED239D1FF297A600BCC94A /* TickersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +107,13 @@
 				74E01C221FF26CA00025A0F0 /* AppDelegate.swift */,
 				74E01C241FF26CA00025A0F0 /* Assets.xcassets */,
 				74E01C261FF26CA00025A0F0 /* MainMenu.xib */,
+				74B24A531FF2A029009C4903 /* PreferencesWindow.swift */,
+				74B24A541FF2A029009C4903 /* PreferencesWindow.xib */,
+				74ED239D1FF297A600BCC94A /* TickersView.swift */,
 				74E01C291FF26CA00025A0F0 /* Info.plist */,
 				74E01C2A1FF26CA00025A0F0 /* BinanceBar.entitlements */,
+				74E01C4C1FF2734E0025A0F0 /* StatusMenuController.swift */,
+				74E01C4E1FF274EC0025A0F0 /* BinanceAPI.swift */,
 			);
 			path = BinanceBar;
 			sourceTree = "<group>";
@@ -190,6 +205,11 @@
 					74E01C1E1FF26CA00025A0F0 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					74E01C2E1FF26CA00025A0F0 = {
 						CreatedOnToolsVersion = 9.1;
@@ -229,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74E01C251FF26CA00025A0F0 /* Assets.xcassets in Resources */,
+				74B24A561FF2A029009C4903 /* PreferencesWindow.xib in Resources */,
 				74E01C281FF26CA00025A0F0 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74ED239F1FF29DCB00BCC94A /* TickersView.swift in Sources */,
+				74B24A551FF2A029009C4903 /* PreferencesWindow.swift in Sources */,
+				74E01C4F1FF274EC0025A0F0 /* BinanceAPI.swift in Sources */,
+				74E01C4D1FF2734E0025A0F0 /* StatusMenuController.swift in Sources */,
 				74E01C231FF26CA00025A0F0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
